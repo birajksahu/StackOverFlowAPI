@@ -1,0 +1,758 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-12T17:29:50.528Z",
+        "line": 13,
+        "name": "Verify badge data is consistent for a specific badge id",
+        "description": "",
+        "id": "validate-badge-api;verify-badge-data-is-consistent-for-a-specific-badge-id;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1366000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "StackOverFlow Badge API with \"desc\" \"rank\" \"4\" \"silver\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"desc\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"rank\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"4\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"silver\"",
+                  "offset": 47
+                }
+              ],
+              "location": "stepDefinitions.stepDefinition.stack_over_flow_badge_api_with(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3432000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User calls \"getBadgesAPI\" with \"Get\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"getBadgesAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Get\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.stepDefinition.user_calls_with_http_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the api call got success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 42
+                }
+              ],
+              "location": "stepDefinitions.stepDefinition.the_api_call_got_success_with_status_code(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1647000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify badges fetched count maps to 4 using \"getBadgesById\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 36
+                },
+                {
+                  "val": "\"getBadgesById\"",
+                  "offset": 44
+                }
+              ],
+              "location": "stepDefinitions.stepDefinition.verify_badges_fetched_count_maps_to_using(java.lang.Integer,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1645000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify recipents fetched with status code 200 using \"getRecipentsById\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 42
+                },
+                {
+                  "val": "\"getRecipentsById\"",
+                  "offset": 52
+                }
+              ],
+              "location": "stepDefinitions.stepDefinition.verify_recipents_fetched_with_status_code_using(java.lang.Integer,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Happy"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-12T17:29:58.821Z",
+        "line": 14,
+        "name": "Verify badge data is consistent for a specific badge id",
+        "description": "",
+        "id": "validate-badge-api;verify-badge-data-is-consistent-for-a-specific-badge-id;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "StackOverFlow Badge API with \"asc\" \"rank\" \"1\" \"bronze\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"asc\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"rank\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"bronze\"",
+                  "offset": 46
+                }
+              ],
+              "location": "stepDefinitions.stepDefinition.stack_over_flow_badge_api_with(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1226000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User calls \"getBadgesAPI\" with \"Get\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"getBadgesAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Get\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.stepDefinition.user_calls_with_http_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the api call got success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 42
+                }
+              ],
+              "location": "stepDefinitions.stepDefinition.the_api_call_got_success_with_status_code(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1428000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify badges fetched count maps to 1 using \"getBadgesById\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 36
+                },
+                {
+                  "val": "\"getBadgesById\"",
+                  "offset": 44
+                }
+              ],
+              "location": "stepDefinitions.stepDefinition.verify_badges_fetched_count_maps_to_using(java.lang.Integer,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1458000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify recipents fetched with status code 200 using \"getRecipentsById\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 42
+                },
+                {
+                  "val": "\"getRecipentsById\"",
+                  "offset": 52
+                }
+              ],
+              "location": "stepDefinitions.stepDefinition.verify_recipents_fetched_with_status_code_using(java.lang.Integer,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Happy"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-12T17:30:02.943Z",
+        "line": 15,
+        "name": "Verify badge data is consistent for a specific badge id",
+        "description": "",
+        "id": "validate-badge-api;verify-badge-data-is-consistent-for-a-specific-badge-id;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "StackOverFlow Badge API with \"desc\" \"type\" \"100\" \"tag_based\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"desc\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"type\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"100\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"tag_based\"",
+                  "offset": 49
+                }
+              ],
+              "location": "stepDefinitions.stepDefinition.stack_over_flow_badge_api_with(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1317000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User calls \"getBadgesAPI\" with \"Get\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"getBadgesAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Get\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.stepDefinition.user_calls_with_http_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the api call got success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 42
+                }
+              ],
+              "location": "stepDefinitions.stepDefinition.the_api_call_got_success_with_status_code(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1406000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify badges fetched count maps to 100 using \"getBadgesById\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100",
+                  "offset": 36
+                },
+                {
+                  "val": "\"getBadgesById\"",
+                  "offset": 46
+                }
+              ],
+              "location": "stepDefinitions.stepDefinition.verify_badges_fetched_count_maps_to_using(java.lang.Integer,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1470000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify recipents fetched with status code 200 using \"getRecipentsById\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 42
+                },
+                {
+                  "val": "\"getRecipentsById\"",
+                  "offset": 52
+                }
+              ],
+              "location": "stepDefinitions.stepDefinition.verify_recipents_fetched_with_status_code_using(java.lang.Integer,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Happy"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-12T17:30:07.145Z",
+        "line": 27,
+        "name": "Verify badge api negative scenario for status codes",
+        "description": "",
+        "id": "validate-badge-api;verify-badge-api-negative-scenario-for-status-codes;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "StackOverFlow Badge API with \"desc\" \"type\" \"4\" \"bronze\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"desc\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"type\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"4\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"bronze\"",
+                  "offset": 47
+                }
+              ],
+              "location": "stepDefinitions.stepDefinition.stack_over_flow_badge_api_with(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1385000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User calls \"getBadgesAPI\" with \"Get\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"getBadgesAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Get\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.stepDefinition.user_calls_with_http_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1022000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "\"error_id\" in response body is \"400\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"error_id\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"400\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.stepDefinition.in_response_body_is(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "\"error_message\" in response body is \"min\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"error_message\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"min\"",
+                  "offset": 36
+                }
+              ],
+              "location": "stepDefinitions.stepDefinition.in_response_body_is(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "\"error_name\" in response body is \"bad_parameter\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"error_name\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"bad_parameter\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinitions.stepDefinition.in_response_body_is(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Negative"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-12T17:30:09.576Z",
+        "line": 28,
+        "name": "Verify badge api negative scenario for status codes",
+        "description": "",
+        "id": "validate-badge-api;verify-badge-api-negative-scenario-for-status-codes;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "StackOverFlow Badge API with \"asc\" \"rank\" \"101\" \"bronze\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"asc\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"rank\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"101\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"bronze\"",
+                  "offset": 48
+                }
+              ],
+              "location": "stepDefinitions.stepDefinition.stack_over_flow_badge_api_with(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1554000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User calls \"getBadgesAPI\" with \"Get\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"getBadgesAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Get\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.stepDefinition.user_calls_with_http_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "\"error_id\" in response body is \"400\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"error_id\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"400\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.stepDefinition.in_response_body_is(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "\"error_message\" in response body is \"pagesize\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"error_message\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"pagesize\"",
+                  "offset": 36
+                }
+              ],
+              "location": "stepDefinitions.stepDefinition.in_response_body_is(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "\"error_name\" in response body is \"bad_parameter\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"error_name\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"bad_parameter\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinitions.stepDefinition.in_response_body_is(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Negative"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-12T17:30:11.169Z",
+        "line": 39,
+        "name": "Verify badgeid api for negative scenario",
+        "description": "",
+        "id": "validate-badge-api;verify-badgeid-api-for-negative-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "StackOverFlow Badge API",
+            "match": {
+              "location": "stepDefinitions.stepDefinition.stack_over_flow_badge_api()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1448000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User calls \"getBadgesAPI\" with \"Get\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"getBadgesAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Get\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.stepDefinition.user_calls_with_http_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "the api call got success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 42
+                }
+              ],
+              "location": "stepDefinitions.stepDefinition.the_api_call_got_success_with_status_code(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1361000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "verify badges fetched max size per page is 31 using \"getBadgesById\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "31",
+                  "offset": 43
+                },
+                {
+                  "val": "\"getBadgesById\"",
+                  "offset": 52
+                }
+              ],
+              "location": "stepDefinitions.stepDefinition.verify_badges_fetched_max_size_per_page_is(java.lang.Integer,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Negative"
+          }
+        ]
+      }
+    ],
+    "name": "Validate badge API",
+    "description": "",
+    "id": "validate-badge-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/badgeValidations.feature",
+    "tags": []
+  }
+]

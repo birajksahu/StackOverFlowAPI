@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="35" failures="0" name="cucumber.Options.TestRunner" time="29.182" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.251-b08"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/monalisa/eclipse-workspace/StackOverFlowAPI"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/monalisa/eclipse-workspace/StackOverFlowAPI"/>
+    <property name="java.runtime.version" value="1.8.0_251-b08"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/cm/lmkswc5j3z72z8n1p66wcn5w0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/monalisa/Documents/work/apache-maven-3.6.3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/monalisa/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/Users/monalisa/Documents/work/apache-maven-3.6.3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.15.5"/>
+    <property name="library.jansi.path" value="/Users/monalisa/Documents/work/apache-maven-3.6.3/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/monalisa"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="monalisa"/>
+    <property name="java.class.path" value="/Users/monalisa/Documents/work/apache-maven-3.6.3/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test verify"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_251"/>
+    <property name="java.ext.dirs" value="/Users/monalisa/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/monalisa/Documents/work/apache-maven-3.6.3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="Verify badge data is consistent for a specific badge id #1" name="StackOverFlow Badge API with &quot;desc&quot; &quot;rank&quot; &quot;4&quot; &quot;silver&quot;" time="1.369"/>
+  <testcase classname="Verify badge data is consistent for a specific badge id #1" name="User calls &quot;getBadgesAPI&quot; with &quot;Get&quot; http request" time="3.432"/>
+  <testcase classname="Verify badge data is consistent for a specific badge id #1" name="the api call got success with status code 200" time="0.002"/>
+  <testcase classname="Verify badge data is consistent for a specific badge id #1" name="verify badges fetched count maps to 4 using &quot;getBadgesById&quot;" time="1.647"/>
+  <testcase classname="Verify badge data is consistent for a specific badge id #1" name="verify recipents fetched with status code 200 using &quot;getRecipentsById&quot;" time="1.646"/>
+  <testcase classname="Verify badge data is consistent for a specific badge id #1" name="Verify badge data is consistent for a specific badge id #1" time="1.653"/>
+  <testcase classname="Verify badge data is consistent for a specific badge id #2" name="StackOverFlow Badge API with &quot;asc&quot; &quot;rank&quot; &quot;1&quot; &quot;bronze&quot;" time="0.013"/>
+  <testcase classname="Verify badge data is consistent for a specific badge id #2" name="User calls &quot;getBadgesAPI&quot; with &quot;Get&quot; http request" time="1.219"/>
+  <testcase classname="Verify badge data is consistent for a specific badge id #2" name="the api call got success with status code 200" time="0"/>
+  <testcase classname="Verify badge data is consistent for a specific badge id #2" name="verify badges fetched count maps to 1 using &quot;getBadgesById&quot;" time="1.427"/>
+  <testcase classname="Verify badge data is consistent for a specific badge id #2" name="verify recipents fetched with status code 200 using &quot;getRecipentsById&quot;" time="1.459"/>
+  <testcase classname="Verify badge data is consistent for a specific badge id #2" name="Verify badge data is consistent for a specific badge id #2" time="1.459"/>
+  <testcase classname="Verify badge data is consistent for a specific badge id #3" name="StackOverFlow Badge API with &quot;desc&quot; &quot;type&quot; &quot;100&quot; &quot;tag_based&quot;" time="0"/>
+  <testcase classname="Verify badge data is consistent for a specific badge id #3" name="User calls &quot;getBadgesAPI&quot; with &quot;Get&quot; http request" time="1.323"/>
+  <testcase classname="Verify badge data is consistent for a specific badge id #3" name="the api call got success with status code 200" time="0"/>
+  <testcase classname="Verify badge data is consistent for a specific badge id #3" name="verify badges fetched count maps to 100 using &quot;getBadgesById&quot;" time="1.399"/>
+  <testcase classname="Verify badge data is consistent for a specific badge id #3" name="verify recipents fetched with status code 200 using &quot;getRecipentsById&quot;" time="1.472"/>
+  <testcase classname="Verify badge data is consistent for a specific badge id #3" name="Verify badge data is consistent for a specific badge id #3" time="1.472"/>
+  <testcase classname="Verify badge api negative scenario for status codes #1" name="StackOverFlow Badge API with &quot;desc&quot; &quot;type&quot; &quot;4&quot; &quot;bronze&quot;" time="0"/>
+  <testcase classname="Verify badge api negative scenario for status codes #1" name="User calls &quot;getBadgesAPI&quot; with &quot;Get&quot; http request" time="1.383"/>
+  <testcase classname="Verify badge api negative scenario for status codes #1" name="&quot;error_id&quot; in response body is &quot;400&quot;" time="1.022"/>
+  <testcase classname="Verify badge api negative scenario for status codes #1" name="&quot;error_message&quot; in response body is &quot;min&quot;" time="0.011"/>
+  <testcase classname="Verify badge api negative scenario for status codes #1" name="&quot;error_name&quot; in response body is &quot;bad_parameter&quot;" time="0.008"/>
+  <testcase classname="Verify badge api negative scenario for status codes #1" name="Verify badge api negative scenario for status codes #1" time="0.008"/>
+  <testcase classname="Verify badge api negative scenario for status codes #2" name="StackOverFlow Badge API with &quot;asc&quot; &quot;rank&quot; &quot;101&quot; &quot;bronze&quot;" time="0.002"/>
+  <testcase classname="Verify badge api negative scenario for status codes #2" name="User calls &quot;getBadgesAPI&quot; with &quot;Get&quot; http request" time="1.555"/>
+  <testcase classname="Verify badge api negative scenario for status codes #2" name="&quot;error_id&quot; in response body is &quot;400&quot;" time="0.018"/>
+  <testcase classname="Verify badge api negative scenario for status codes #2" name="&quot;error_message&quot; in response body is &quot;pagesize&quot;" time="0.006"/>
+  <testcase classname="Verify badge api negative scenario for status codes #2" name="&quot;error_name&quot; in response body is &quot;bad_parameter&quot;" time="0.008"/>
+  <testcase classname="Verify badge api negative scenario for status codes #2" name="Verify badge api negative scenario for status codes #2" time="0.01"/>
+  <testcase classname="Verify badgeid api for negative scenario" name="StackOverFlow Badge API" time="0.003"/>
+  <testcase classname="Verify badgeid api for negative scenario" name="User calls &quot;getBadgesAPI&quot; with &quot;Get&quot; http request" time="1.457"/>
+  <testcase classname="Verify badgeid api for negative scenario" name="the api call got success with status code 200" time="0"/>
+  <testcase classname="Verify badgeid api for negative scenario" name="verify badges fetched max size per page is 31 using &quot;getBadgesById&quot;" time="1.349"/>
+  <testcase classname="Verify badgeid api for negative scenario" name="Verify badgeid api for negative scenario" time="1.35"/>
+</testsuite>
